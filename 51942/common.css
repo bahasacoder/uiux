@@ -1,3 +1,9 @@
+/* Common */
+body{
+    margin : 0 auto;
+    padding : 0;
+  }
+
 .flex--nowrap {
     display: flex;
     flex-wrap: nowrap;
