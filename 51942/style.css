@@ -1,8 +1,25 @@
-body{}
+/* Common */
+body{
+  margin : 0 auto;
+  padding : o;
+}
+
+
+/* Navigation */
 nav{}
 
-.navbar{}
-.navbar__aside{}
+.navbar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+.navbar__aside{
+  margin: 0;
+  padding: 10px;
+ background-color: #ff0;
+}
 .social__nav{}
 .social__nav__btn{}
 
