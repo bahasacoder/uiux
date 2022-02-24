@@ -1,12 +1,12 @@
 /* Common */
 body{
   margin : 0 auto;
-  padding : o;
+  padding : 0;
 }
 
 
 /* Navigation */
-nav{}
+nav{ margin:0;}
 
 .navbar{
   position: relative;
