@@ -1,4 +1,11 @@
+/* Common */
+body{
+    margin : 0 auto;
+    padding : 0;
+  }
+  
 
+  
   /* Navigation */
   nav{ 
     margin:0; 
@@ -13,23 +20,31 @@
     }
   .navbar__aside{
     margin: 0;
-    padding: 10px;
+    padding: 0;
    background-color: #d60000;
   }
-  .social__nav{width: 100%;}
-  .social__nav__icon{ 
+  .social__nav{
+	  width: 100%;
+	  padding: 10px 0;
+	  }
+  .social__nav__icon, .sosmed__icon { 
+	font-size: 1.2rem; 
+	font-weight: 400; 
   }
-  .notelp {
-    font-size: 24px;
-    line-height: normal;
+  .social__nav__icon img, .sosmed__icon img{
+	 width: 1.3rem;
+	 height: 100%;
+	 padding: 0 .5rem;
   }
-  .atmail {
-    font-size: 24px;
-    line-height: normal;
+  .notelp { 
+  }
+  .atmail { 
   }
   .navbar__main{
     width: 100%;
     background-color: azure;
+    margin: auto;
+    box-sizing: border-box;
   }
 
   .nav__brand { 
@@ -50,14 +65,65 @@
   .nav__description{}
   
   .navbar__menu{
-
+    background-color: burlywood;
   }
   .nav__items{
-    list-style: none;
+    list-style: none;;
   }
   .nav__item{
     margin: 10px;
     padding: 5px;
-    border
+    border: 1px solid blueviolet;
+	text-transform: uppercase;
   }
   
+.jumbotron {}
+.home__hero {
+	background-color: yellow;
+}
+.jumbotron__wrap {}
+.image__slider{ 
+	width: 100%;
+	height: 480px;
+}
+.image__slider img { 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.home__hero h2 {
+	position: absolute;
+	top:60%;
+}
+.home__hero p {
+	position: absolute;
+	top:70%;
+}
+
+ /* Section 1 */
+.cendana__cove {
+	background-color: rgb(243, 244, 249);
+	
+}
+
+.cendana__cove .wrapper{
+	display: block;
+	text-align: center;
+	
+}
+ 
+
+.short__profile {
+}
+
+.short__profile img {
+	width: 20%;
+	height: auto;
+}
+
+
+.packets {
+	background-color: #ffffff;
+}
+
