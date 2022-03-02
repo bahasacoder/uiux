@@ -2,3 +2,6 @@
 ![savorin_12a](https://user-images.githubusercontent.com/88817100/156280361-58b89986-bf88-4b89-9a98-e9aae0f703da.jpg)
 ![tanzanite_12a](https://user-images.githubusercontent.com/88817100/156280394-42903a5b-87b3-4c33-8a0d-07b85ac765d3.jpg)
 ![logo_asli](https://user-images.githubusercontent.com/88817100/156280422-ccb32a16-4fba-41ed-9558-50fefd5d0216.png)
+![lokasi_strategis](https://user-images.githubusercontent.com/88817100/156304458-192395d3-ebdb-4830-8c5b-0b2aec8c55e7.jpg)
+![peta](https://user-images.githubusercontent.com/88817100/156304479-707201f6-d92f-483f-84f3-aef4c083c628.jpg)
+![denah](https://user-images.githubusercontent.com/88817100/156304514-bdfe2e26-af58-4882-b047-abc7a385b3be.jpg)
