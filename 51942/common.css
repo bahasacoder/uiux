@@ -13,7 +13,12 @@
 	/* font-size: 62.5%; =10px*/
 	font-size: 75.00%;
 }
- 
+ body {
+	 box-sizing: border-box;
+	 max-width: 1140px;
+	 background-color: azure;
+}
+
 ..flex--nowrap {
     display: flex;
     flex-wrap: nowrap;
