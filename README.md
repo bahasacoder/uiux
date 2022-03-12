@@ -9,3 +9,5 @@
 ![maingate](https://user-images.githubusercontent.com/88817100/156341247-44c6b434-64d3-4469-9463-147c884d678c.jpg)
 ![mosque](https://user-images.githubusercontent.com/88817100/156341270-2212248d-2277-40e7-b298-2be8ef265dc1.jpg)
 ![playground](https://user-images.githubusercontent.com/88817100/156341284-5ec1906c-919b-4be9-9d76-e66a95c9c6f3.jpg)
+![diamon-2](https://user-images.githubusercontent.com/59762090/158017494-8a5bab79-c667-4164-ba61-ce7a2c13b23f.jpg)
+
