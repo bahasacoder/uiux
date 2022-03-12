@@ -8,7 +8,7 @@
     font-display: swap;
 }
 
-
+/* LAYOUT */
  html {
 	/* font-size: 62.5%; =10px*/
 	font-size: 75.00%;
@@ -19,6 +19,12 @@
 	 background-color: azure;
 }
 
+/* COLOR *.
+.bg--lemon-gate {
+	background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+/* FLEX BOX */
 ..flex--nowrap {
     display: flex;
     flex-wrap: nowrap;
