@@ -203,10 +203,12 @@ body {
 	object-fit: contain;
 }
 .box__fitur{}
+.box__listing{}
 .box__list{
 	list-style: none;
 	margin: 1rem;
 	padding: 0.5rem;
+	background-color: #DAA520;
 }
 
 
