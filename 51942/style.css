@@ -194,14 +194,20 @@ body {
 .box__row{}
 .box__left{}
 .box__right{}
-.box__content{}
+.box__side{}
+.box__content{ }
 .box__title{}
 .box__image{
 	width: 100%;
 	height: auto;
 	object-fit: contain;
 }
-.box__fitur{}
+.box__fitur{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 .box__list{}
 
 
