@@ -187,3 +187,25 @@ body {
   width: 20%;
   text-align: center;
 }
+
+
+/* SECTION BOX */
+.box__item{}
+.box__row{}
+.box__left{}
+.box__right{}
+.box__content{}
+.box__title{}
+.box__image{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.box__fitur{}
+
+
+
+
+
+
+
