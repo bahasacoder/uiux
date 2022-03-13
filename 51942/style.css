@@ -64,16 +64,17 @@ body {
   .nav__description{}
   
   .navbar__menu{
-    background-color: burlywood;
+    background-color: transparent;
   }
   .nav__items{
     list-style: none;;
   }
+
   .nav__item{
     margin: 10px;
     padding: 5px;
-    border: 1px solid blueviolet;
-	text-transform: uppercase;
+	  text-transform: uppercase;
+	  font-weight: 500;
   }
   
 .jumbotron {}
