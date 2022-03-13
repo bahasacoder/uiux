@@ -156,15 +156,16 @@ body {
  	place-items: center stretch;
 } 
 .lokasi__peta {
+	width: 90%; 
 	margin: 0;
 	padding: 2px;   
 	}
 .lokasi__denah { 
+	width: 90%; 
 	margin: 0;
 	padding: 2px;   
 }
 .lokasi__view{
-	width: 90%; 
 	object-fit:contain; 
 }
 
