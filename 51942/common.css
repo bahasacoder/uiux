@@ -21,13 +21,14 @@
 	font-size: 75.00%;
 }
  body {
-	 box-sizing: border-box;
-	 max-width: 1140px;
 	 background-color: azure;
 }
 section {}
 .layout {}
-.container {}
+.container {
+	 box-sizing: border-box;
+	 max-width: 1140px;
+}
 .wrapper {}
 
 
