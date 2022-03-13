@@ -68,7 +68,6 @@ section {}
 .col30{
 	max-width: 30%; 
 	box-sizing: border-box;
-	display: block; 
 }
 
 .col25 {
@@ -80,12 +79,10 @@ section {}
 .col50{
 	max-width: 50%;  
 	box-sizing: border-box;
-	display: block; 
 }
 
 .col100{
 	max-width: 100%;
-	display: block; 
 	box-sizing: border-box;
 }
 
