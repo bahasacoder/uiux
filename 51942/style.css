@@ -207,7 +207,7 @@ body {
 .box__list{
 	list-style: none;
 	margin: 1rem;
-	padding: 0.5rem;
+	padding: 1rem 2rem;
 	background-color: #DAA520;
 }
 
