@@ -190,8 +190,11 @@ body {
 
 
 /* SECTION BOX */
-.box__item{}
-.box__row{}
+.box__item{ 
+	margin: 2rem 0;}
+.box__row{
+	width: 100%;
+}
 .box__left{}
 .box__right{}
 .box__side{}
