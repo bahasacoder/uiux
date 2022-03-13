@@ -188,6 +188,9 @@ body {
   text-align: center;
 }
 
+#diamond {
+	padding: 5rem 0;
+}
 
 /* SECTION BOX */
 .box__item{ 
