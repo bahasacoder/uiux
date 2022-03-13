@@ -203,7 +203,11 @@ body {
 	object-fit: contain;
 }
 .box__fitur{}
-.box__list{}
+.box__list{
+	list-style: none;
+	margin: 1rem;
+	padding: 0.5rem;
+}
 
 
 
