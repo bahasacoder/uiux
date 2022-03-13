@@ -25,6 +25,16 @@
  body {
 	 background-color: azure;
 }
+
+.layout {
+	width: 100%;
+}
+.container {
+	 box-sizing: border-box;
+	 max-width: 1140px;
+}
+.wrapper {}
+
 section {
 	width: 100%;
 	display: flex;
@@ -32,12 +42,7 @@ section {
 	padding: 1rem auto;
 	margin: 0;
 }
-.layout {}
-.container {
-	 box-sizing: border-box;
-	 max-width: 1140px;
-}
-.wrapper {}
+
 
 
 .wrapper p {
