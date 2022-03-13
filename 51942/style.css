@@ -198,9 +198,10 @@ body {
 .box__content{ }
 .box__title{}
 .box__image{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	object-fit: contain;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .box__fitur{}
 .box__listing{}
