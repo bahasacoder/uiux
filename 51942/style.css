@@ -196,7 +196,10 @@ body {
 .box__right{}
 .box__side{}
 .box__content{ }
-.box__title{}
+.box__title{
+	font-size: 3rem;
+	font-weight: 500;
+}
 .box__image{
 	width: 90%;
 	height: auto;
