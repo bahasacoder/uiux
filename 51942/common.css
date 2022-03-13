@@ -68,22 +68,25 @@ section {}
 .col30{
 	max-width: 30%; 
 	box-sizing: border-box;
+	display: block;
 }
 
 .col25 {
 	max-width: 25%; 
 	box-sizing: border-box; 
-	
+	display: block;
 }
 
 .col50{
 	max-width: 50%;  
 	box-sizing: border-box;
+	display: block;
 }
 
 .col100{
 	max-width: 100%;
 	box-sizing: border-box;
+	display: block;
 }
 
 .section__title {
@@ -127,4 +130,8 @@ section {}
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
+}
+
+.flex--row-wrap {
+	
 }
