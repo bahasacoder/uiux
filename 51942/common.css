@@ -25,7 +25,11 @@
  body {
 	 background-color: azure;
 }
-section {}
+section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
 .layout {}
 .container {
 	 box-sizing: border-box;
