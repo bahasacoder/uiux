@@ -109,7 +109,11 @@ section {}
     align-items: center;
     justify-content: space-between;
 }
-
+.flex--space-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .flex--center {
     display: flex;
     justify-content: center;
