@@ -63,6 +63,8 @@ section {}
 .row {
 	width:100%; 
 }
+
+
 .col30{
 	max-width: 30%; 
 	box-sizing: border-box;
@@ -100,7 +102,7 @@ section {}
 
 
 /* FLEX BOX */
-..flex--nowrap {
+.flex--nowrap {
     display: flex;
     flex-wrap: nowrap;
 }
