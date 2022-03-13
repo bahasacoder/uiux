@@ -29,11 +29,11 @@ body {
 	  padding: 10px 0;
 	  }
   .social__nav__icon, .sosmed__icon { 
-	font-size: 1.4rem; 
+	font-size: 1.2rem; 
 	font-weight: 400; 
   }
   .social__nav__icon img, .sosmed__icon img{
-	 width: 1.3rem;
+	 width: 1.5rem;
 	 height: 100%;
 	 padding: 0 .5rem;
   }
