@@ -13,7 +13,7 @@
   </head>
   <body>
       <nav class="navbar navbar__aside">
-          <div class="social__nav">
+          <div class="social__nav container">
              <div class="social__nav__icon flex--space-betwen">
                 <div class="contact flex--nowrap" >
                   <div class="phone"><img src="https://img.icons8.com/color/48/000000/phone.png"/></div>
@@ -31,18 +31,20 @@
           </div>
       </nav>
       <nav class="navbar navbar__main flex--nowrap flex--space-betwen">
-        <div class="nav__brand">
-          <img class="logo__brand" src="https://user-images.githubusercontent.com/88817100/156280422-ccb32a16-4fba-41ed-9558-50fefd5d0216.png" alt="personal logo"/>
-           <h2 class="nav__title">ᨅᨚᨒ ᨆᨔᨙᨇᨚ ᨉᨒᨙ</h2>
-          <p class="nav__description">Temukan Rumah Idaman Anda</p>
-         </div>
-        <ul class="navbar__menu nav__items flex--nowrap">
-          <li class="nav__item home">home</li>
-          <li class="nav__item dropdown"><a class="nav__link" href="#">product</a> <span>tog</span></li>
-          <li class="nav__item">location</li>
-          <li class="nav__item">news</li>
-          <li class="nav__item">contact</li>
-        </ul>
+	    <div class="container">  
+		<div class="nav__brand">
+		  <img class="logo__brand" src="https://user-images.githubusercontent.com/88817100/156280422-ccb32a16-4fba-41ed-9558-50fefd5d0216.png" alt="personal logo"/>
+		   <h2 class="nav__title">ᨅᨚᨒ ᨆᨔᨙᨇᨚ ᨉᨒᨙ</h2>
+		  <p class="nav__description">Temukan Rumah Idaman Anda</p>
+		 </div>
+		<ul class="navbar__menu nav__items flex--nowrap">
+		  <li class="nav__item home">home</li>
+		  <li class="nav__item dropdown"><a class="nav__link" href="#">product</a> <span>tog</span></li>
+		  <li class="nav__item">location</li>
+		  <li class="nav__item">news</li>
+		  <li class="nav__item">contact</li>
+		</ul>
+	      </div>
       </nav>
 
       <section class="jumbotron home__hero">
@@ -54,7 +56,7 @@
 	  </section>
 
       <section class="layout short__profile">
-		<div class="wrapper">
+		<div class="container wrapper">
 			<div class="image__profile">
 			  <img class="logo__profile" src="https://user-images.githubusercontent.com/88817100/156280422-ccb32a16-4fba-41ed-9558-50fefd5d0216.png" alt="image profil">
 			</div>
@@ -66,40 +68,43 @@
 		</div>
       </section>
 
-     <section class="golden-view kapling row flex--center">
-        <div class="card kapling__view col30">
-            <img class="card__image kapling__image" src="https://user-images.githubusercontent.com/88817100/156276679-c7021087-96e0-4d5d-941f-913490f94060.jpg" alt="Type Savorine">
-			<div class="card__body kapling__type">
-			  <h4 class="card__title">Type savorine ( 5 x 12,50 )</h4>
-			</div>
-		</div><!-- End card kapling__view -->
+     <section class="row flex--center" id="golden-view">
+	     <div class="container flex--space-between">
 		<div class="card kapling__view col30">
-            <img class="card__image kapling__image " src="https://user-images.githubusercontent.com/88817100/156280361-58b89986-bf88-4b89-9a98-e9aae0f703da.jpg" alt="Type Tanzanite">
-			<div class="card__body kapling__type">
-			  <h4 class="card__title">Type tanzanite ( 6 x 15 )</h4>
-			</div>
-		</div><!-- End card kapling__view -->
-		<div class="card kapling__view col30">
-            <img class="card__image kapling__image" src="https://user-images.githubusercontent.com/88817100/156280394-42903a5b-87b3-4c33-8a0d-07b85ac765d3.jpg" alt="Type Citrinite">
-			<div class="card__body kapling__type">
-			  <h4 class="card__title">Type citrinite ( 7 x 15 )</h4>
-			</div>
-		</div><!-- End card kapling__view -->
-        
+		    <img class="card__image kapling__image" src="https://user-images.githubusercontent.com/88817100/156276679-c7021087-96e0-4d5d-941f-913490f94060.jpg" alt="Type Savorine">
+				<div class="card__body kapling__type">
+				  <h4 class="card__title">Type savorine ( 5 x 12,50 )</h4>
+				</div>
+			</div><!-- End card kapling__view -->
+			<div class="card kapling__view col30">
+		    <img class="card__image kapling__image " src="https://user-images.githubusercontent.com/88817100/156280361-58b89986-bf88-4b89-9a98-e9aae0f703da.jpg" alt="Type Tanzanite">
+				<div class="card__body kapling__type">
+				  <h4 class="card__title">Type tanzanite ( 6 x 15 )</h4>
+				</div>
+			</div><!-- End card kapling__view -->
+			<div class="card kapling__view col30">
+		    <img class="card__image kapling__image" src="https://user-images.githubusercontent.com/88817100/156280394-42903a5b-87b3-4c33-8a0d-07b85ac765d3.jpg" alt="Type Citrinite">
+				<div class="card__body kapling__type">
+				  <h4 class="card__title">Type citrinite ( 7 x 15 )</h4>
+				</div>
+			</div><!-- End card kapling__view -->
+	     </div>        
 	</section> <!-- END golden-view kapling -->
 	
 	<section class="lokasi">
-		<div class="section__title row">
-			<h2>Lokasi Strategi</h2>
-		</div>
-		<div class="lokasi__strategis col100">
-			<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156304458-192395d3-ebdb-4830-8c5b-0b2aec8c55e7.jpg" alt="Lokasi yang strategis">
-		</div>
-		<div class="lokasi__peta col50">
-			<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156341203-8d90d95d-118e-48ea-8398-3342b86a4333.jpg" alt="Peta Lokasi">
-		</div>
-		<div class="lokasi__denah col50">
-			<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156341150-f648c312-3139-41ab-b05f-dd1151a9d2f2.jpg" alt="Denah Lokasi">
+		 <div class="container">
+			<div class="section__title row">
+				<h2>Lokasi Strategi</h2>
+			</div>
+			<div class="lokasi__strategis col100">
+				<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156304458-192395d3-ebdb-4830-8c5b-0b2aec8c55e7.jpg" alt="Lokasi yang strategis">
+			</div>
+			<div class="lokasi__peta col50">
+				<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156341203-8d90d95d-118e-48ea-8398-3342b86a4333.jpg" alt="Peta Lokasi">
+			</div>
+			<div class="lokasi__denah col50">
+				<img class="lokasi__view" src="https://user-images.githubusercontent.com/88817100/156341150-f648c312-3139-41ab-b05f-dd1151a9d2f2.jpg" alt="Denah Lokasi">
+			</div>
 		</div>
 	</section>
 	
@@ -154,7 +159,7 @@
 	
 	  <section class="layout flex--center bg--gold-gradient" id="diamond">
 		<div class="container box__item">			
-			<div class="box__row flex--space-betwen">				
+			<div class="box__row flex--space-between">				
 				<div class="box__right col50 flex--column">
 					<h2 class="box__title flex--center">Diamond</h2>
 					<div class="box__fitur flex--center">
@@ -183,7 +188,7 @@
 	  
 	<section class="layout flex--center" id="zircon">
 		<div class="container box__item">			
-			<div class="box__row flex--space-betwen">				
+			<div class="box__row flex--space-between">				
 				<div class="box__right col50 flex--column">
 					<h2 class="box__title flex--center">Zircon</h2>
 					<div class="box__fitur flex--center">
