@@ -13,7 +13,9 @@
 .bg--lemon-gate {
 	background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
 }
-
+.bg--gold-gradient {
+	background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
 
 /* LAYOUT */
  html {
