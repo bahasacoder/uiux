@@ -202,12 +202,7 @@ body {
 	height: auto;
 	object-fit: contain;
 }
-.box__fitur{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
+.box__fitur{}
 .box__list{}
 
 
