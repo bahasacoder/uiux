@@ -150,7 +150,9 @@ section {
 }
 
 .flex--row-wrap {
-	
+	 display: flex;
+	flex-wrap: row wrap;
+	align-content: flex-start;
 }
 
 /* OBJECT */
