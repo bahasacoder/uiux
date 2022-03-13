@@ -123,6 +123,11 @@ section {}
     align-items: center;
     flex-wrap: wrap;
 }
+.flex--column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .flex--row {
     display: flex;
