@@ -149,9 +149,9 @@ section {
     flex-wrap: wrap;
 }
 
-.flex--row-wrap {
+.flex--wrap {
 	 display: flex;
-	flex-wrap: row wrap;
+	flex-wrap: wrap;
 	align-content: flex-start;
 }
 
