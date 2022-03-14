@@ -1,2 +1,8 @@
 https://ld-wt73.template-help.com/wt_prod-3844/
 https://yevgenysim.github.io/shopper/overview.html
+
+Extra small   <576px    None (auto)  col-
+Small         ≥576px    540px        col-sm-
+Medium        ≥768px    720px        col-md-
+Large         ≥992px    960px        col-lg-
+Extra large  ≥1200px    1140px       col-xl-
