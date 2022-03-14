@@ -233,6 +233,13 @@ body {
 
 
 
-
+/* FOOTER */
+.footer__top{
+	background-color: #fbf404;
+}
+.footer__bottom{
+	background-color: #411d06;
+}
+.footer__column{}
 
 
