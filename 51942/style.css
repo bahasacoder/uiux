@@ -167,7 +167,9 @@ body {
 }
 .lokasi__view{
 	object-fit:contain; 
+	width:100%;
 }
+
 
 .features {
 	background-color: rgb(243, 244, 249);
