@@ -239,6 +239,8 @@ body {
 }
 .footer__bottom{
 	background-color: #411d06;
+	margin:1rem 0;
+	padding: 3rem 0;
 }
 .footer__column{}
 
