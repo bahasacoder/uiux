@@ -1,9 +1,10 @@
 @media only screen and (max-width: 540px) {
   .flex--nowrap{
-    .flex--nowrap {
     display: flex;
     flex-wrap: wrap;
-}
+  }
+  .sosmed__icon {
+    display: inline;
   }
 }
 
