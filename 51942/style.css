@@ -1,4 +1,7 @@
 /* Common */
+@import "common.css;
+@import "screen.css;
+	
 body {
 	font-family: 'Roboto', sans-serif;
 	margin : 0 auto;
