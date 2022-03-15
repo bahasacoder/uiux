@@ -187,8 +187,10 @@ section {
 	}
 		
 	.home__nav_top.visual__nav {position: relative;}
-	 toggle--nav-icon .img_icon {
-
+	 .toggle--nav-icon .img_icon {
+		position: absolute;
+		    right: 0;
+		    top: 0;
 	 }
 	 .home__nav_top.visual__nav a {
 	    float: none;
