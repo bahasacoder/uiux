@@ -64,6 +64,10 @@ body {
 	width: 100%;
 	height:auto;
 }
+img.logo__brand {
+	max-width: 7rem;
+	height:auto;
+}
 
 .logo__profile {
 	width: 9rem;
