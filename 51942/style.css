@@ -56,7 +56,8 @@ body {
     padding: 0;
     width: 20%;
   }
-  .nav__brand {  
+  .nav__brand logo__brand{  
+	  text-align:center;
   }
   .nav__brand h2 {margin: 0;
     padding: 0;}
