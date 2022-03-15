@@ -167,7 +167,7 @@ section {
 
 /* MEDIA SCREEN */
 @media (max-width: 540px) {
-  .mobile--hidden{
+  .xs--none{
     display: none;
   }  
 
