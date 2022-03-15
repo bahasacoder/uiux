@@ -59,6 +59,16 @@ body {
   .nav__brand logo__brand{  
 	  text-align:center;
   }
+
+.logo__brand {
+	width: 100%;
+	height:auto;
+}
+
+.logo__profile {
+	width: 9rem;
+	height:auto;
+}
   .nav__brand h2 {margin: 0;
     padding: 0;}
   .nav__brand p {margin: 0;
