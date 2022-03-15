@@ -178,7 +178,22 @@ section {
 	}
 	.lg--none {
 		display: block;
-		float: left;
+		float: right;
+	}
+	.flex--nowrap {
+		flex-wrap: wrap;
 	}
 	
+	.home__nav_top.visual__nav {position: relative;}
+	 .toggle--nav-icon .img__icon {
+		position: absolute;
+		    right: 0;
+		    top: 0;
+	 }
+	 .nav__home_top.visual__nav a {
+	    float: none;
+	    display: block;
+	    text-align: right;
+	  }
+
 
