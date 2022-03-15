@@ -180,8 +180,5 @@ section {
 		display: block;
 		float: left;
 	}
-	.flex--nowrap {
-		flex-wrap: wrap;
-	}
 	
 
