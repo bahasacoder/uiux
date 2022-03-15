@@ -170,7 +170,7 @@ section {
   .mobile--hidden{
     display: none;
   }  
-  .social__nav {
+  .social__nav_icon
 	display: flex;
 	  flex-direction: column;
   }
