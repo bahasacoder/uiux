@@ -181,8 +181,8 @@ section {
 		float: right;
 	}
 	.flex--nowrap {
-		flex-direction: column;
 		flex-wrap: wrap;
+	}
 	.visual__nav_top {
 	}
 		
