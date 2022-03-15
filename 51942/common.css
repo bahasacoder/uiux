@@ -186,13 +186,13 @@ section {
 	.visual__nav_top {
 	}
 		
-	.topnav.responsive {position: relative;}
-	 .topnav.responsive .icon {
+	.home__nav_top.visual__nav {position: relative;}
+	 toggle--nav-icon .img_icon {
 	    position: absolute;
 	    right: 0;
 	    top: 0;
 	 }
-	 .topnav.responsive a {
+	 .home__nav_top.visual__nav a {
 	    float: none;
 	    display: block;
 	    text-align: left;
