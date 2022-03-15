@@ -64,7 +64,7 @@ body {
 	width: 100%;
 	height:auto;
 }
-img.logo__brand {
+.logo__brand img{
 	max-width: 7rem;
 	height:auto;
 }
