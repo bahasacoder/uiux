@@ -164,3 +164,19 @@ section {
 	color: white;
 }
 
+
+/* MEDIA SCREEN */
+@media (max-width: 540px) {
+  .mobile--hidden{
+    display: none;
+  }  
+
+}
+
+@media only screen and (max-width: 768px    px) {
+  
+}
+
+@media only screen and (max-width: 992px    px) {
+}
+
