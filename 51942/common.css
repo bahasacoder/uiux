@@ -186,6 +186,7 @@ section {
 	.nav__home_top {
 		overflow: hidden;
   		background-color: #333;
+		display: none;
 	}
 	.nav__home_top.visual__nav {position: relative;}
 	
