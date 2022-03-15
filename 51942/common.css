@@ -47,16 +47,6 @@ section {
 	color : rgb(154, 154, 154);
 }
 
-.logo__brand {
-	width: 7rem;
-	height:auto;
-}
-
-.logo__profile {
-	width: 9rem;
-	height:auto;
-}
-
 .card { ; 
 	display: flex;
 	flex-direction: column;
