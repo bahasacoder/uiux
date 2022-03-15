@@ -178,7 +178,7 @@ section {
 	}
 	.lg--none {
 		display: block;
-		float: right;
+		float: left;
 	}
 	.flex--nowrap {
 		flex-wrap: wrap;
