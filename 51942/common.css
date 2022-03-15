@@ -173,9 +173,6 @@ section {
 }
 
 @media (max-width: 992px) {
-	ul.navbar__menu {
-		display: none;
-	}
 	.lg--none {
 		display: block;
 		float: right;
