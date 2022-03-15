@@ -163,3 +163,7 @@ section {
 .text--white {
 	color: white;
 }
+
+.mobile--hidden{
+    display: none;
+  }  
