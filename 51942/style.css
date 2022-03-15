@@ -263,6 +263,7 @@ body {
 .footer__column{}
 
 /* VISIBILITY */
+
 .lg--none {
 	display: none;
 }
