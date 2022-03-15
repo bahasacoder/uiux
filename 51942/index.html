@@ -256,11 +256,7 @@
  <script>
 	function myFunction() {
 	  var x = document.getElementById("homeTopNav");
-	  if (x.className === "nav__home_top") {
-	    x.className += " visual_nav";
-	  } else {
-	    x.className = "nav__home_top";
-	  }
+	  x.classList.toggle("visual__nav");
 	}
 </script>
   </body> 
