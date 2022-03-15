@@ -186,7 +186,7 @@ section {
 	
 	.nav__home_top.visual__nav {position: relative;}
 	
-	 .toggle--nav-icon .img__icon {
+	 .toggle--nav-icon.visual__nav .img__icon {
 		position: absolute;
 		    right: 0;
 		    top: 0;
@@ -195,6 +195,7 @@ section {
 	    float: none;
 	    display: block;
 	    text-align: right;
+		 backgorund-color: red;
 	  }
 
 
