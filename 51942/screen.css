@@ -1,4 +1,8 @@
-@media only screen and (max-width: 540px) {
+@media (max-width: 540px) {
+  .mobile--hidden{
+    display: flex;
+    flex-wrap: wrap;
+  }  
   .flex--nowrap{
     display: flex;
     flex-wrap: wrap;
@@ -6,9 +10,11 @@
   .sosmed__icon {
     display: inline;
   }
+  
 }
 
 @media only screen and (max-width: 768px    px) {
+  
 }
 
 @media only screen and (max-width: 992px    px) {
