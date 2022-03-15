@@ -180,5 +180,22 @@ section {
 		display: block;
 		float: right;
 	}
+	.flex--nowrap {
+		flex-direction: column;
+		flex-wrap: wrap;
+	.visual__nav_top {
+	}
+		
+	.topnav.responsive {position: relative;}
+	 .topnav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	 }
+	 .topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
 
 
