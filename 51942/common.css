@@ -191,8 +191,9 @@ section {
 		display: none;
 	}
 	
-	.nav__home_top.visual__nav {position: relative;
-	display: block;
+	.nav__home_top.visual__nav {
+		position: relative;
+		display: block;
 	}
 	
 	 .toggle--nav-icon.visual__nav .img__icon {
