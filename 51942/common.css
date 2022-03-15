@@ -160,7 +160,7 @@ section {
   
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .md--none{
     display: none;
   }  
