@@ -183,7 +183,10 @@ section {
 	.flex--nowrap {
 		flex-wrap: wrap;
 	}
-	
+	.nav__home_top {
+		overflow: hidden;
+  		background-color: #333;
+	}
 	.nav__home_top.visual__nav {position: relative;}
 	
 	 .toggle--nav-icon.visual__nav .img__icon {
