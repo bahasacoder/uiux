@@ -183,19 +183,5 @@ section {
 	.flex--nowrap {
 		flex-wrap: wrap;
 	}
-	.visual__nav_top {
-	}
-		
-	.home__nav_top.visual__nav {position: relative;}
-	 .toggle--nav-icon .img_icon {
-		position: absolute;
-		    right: 0;
-		    top: 0;
-	 }
-	 .nav__home_top.visual__nav a {
-	    float: none;
-	    display: block;
-	    text-align: left;
-	  }
-
+	
 
