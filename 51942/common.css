@@ -192,7 +192,7 @@ section {
 		    right: 0;
 		    top: 0;
 	 }
-	 .home__nav_top.visual__nav a {
+	 .nav__home_top.visual__nav a {
 	    float: none;
 	    display: block;
 	    text-align: left;
