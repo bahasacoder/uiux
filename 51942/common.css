@@ -168,10 +168,13 @@ section {
 
 }
 
-@media only screen and (max-width: 768px    px) {
+@media only screen and (max-width: 768px) {
   
 }
 
-@media only screen and (max-width: 992px    px) {
+@media (max-width: 992px) {
+	.navbar__main {
+		display: none;
+	}
 }
 
