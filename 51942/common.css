@@ -173,7 +173,9 @@ section {
 }
 
 
-
+.nav__home_top {
+	display: flex;
+}
 @media (max-width: 992px) {
 	.lg--none {
 		display: block;
