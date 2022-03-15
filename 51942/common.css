@@ -187,7 +187,9 @@ section {
 		flex-wrap: wrap;
 	}
 	
-	.nav__home_top.visual__nav {position: relative;}
+	.nav__home_top.visual__nav {position: relative;
+	display: block;
+	}
 	
 	 .toggle--nav-icon.visual__nav .img__icon {
 		position: absolute;
