@@ -38,14 +38,14 @@
 		 <h2 class="nav__title text--center">ᨅᨚᨒ ᨆᨔᨙᨇᨚ ᨉᨒᨙ</h2>
 		  <p class="nav__description text--center">Temukan Rumah Idaman Anda</p>
 		 </div>
-		<ul class="navbar__menu nav__items flex--nowrap">
+		<ul class="navbar__menu nav__items flex--nowrap nav__home_top visual__nav" id="homeTopNav">
 		  <li class="nav__item home">home</li>
 		  <li class="nav__item dropdown"><a class="nav__link" href="#">product</a> <span>tog</span></li>
 		  <li class="nav__item">location</li>
 		  <li class="nav__item">news</li>
 		  <li class="nav__item">contact</li>
 		</ul>
-		<div class="toggle--nav-icon lg--none"><img src="https://img.icons8.com/ios-filled/50/000000/menu-rounded.png"/></div>
+		<div class="toggle--nav-icon lg--none"><a href="javascript:void(0)" class="img__icon" onclick="myFunction()><img src="https://img.icons8.com/ios-filled/50/000000/menu-rounded.png"/></a></div>
       </nav>
 
       <section class="jumbotron home__hero">
@@ -251,6 +251,18 @@
           </footer>
           
           <!-- section : area, block. container, content -->
+		     
+		     
+ <script>
+	function myFunction() {
+	  var x = document.getElementById("homeTopNav");
+	  if (x.className === "nav__home_top") {
+	    x.className += " visual_nav";
+	  } else {
+	    x.className = "nav__home_top";
+	  }
+	}
+</script>
   </body> 
   
 </html>
