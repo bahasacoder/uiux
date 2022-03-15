@@ -184,7 +184,8 @@ section {
 		flex-wrap: wrap;
 	}
 	
-	.home__nav_top.visual__nav {position: relative;}
+	.nav__home_top.visual__nav {position: relative;}
+	
 	 .toggle--nav-icon .img__icon {
 		position: absolute;
 		    right: 0;
