@@ -170,10 +170,7 @@ section {
   .mobile--hidden{
     display: none;
   }  
-  .social__nav_icon
-	display: flex;
-	  flex-direction: column;
-  }
+
   .flex--space-between{
 	  justify-content: flex-start;
 	}
