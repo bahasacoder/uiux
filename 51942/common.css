@@ -176,8 +176,9 @@ section {
 	ul.navbar__menu {
 		display: none;
 	}
-	.lg-none {
+	.navbar .lg-none {
 		display: block;
+		float: right;
 	}
 
 
