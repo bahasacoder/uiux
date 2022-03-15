@@ -31,11 +31,11 @@ body {
 	  width: 100%;
 	  padding: 10px 0;
 	  }
-  .social__nav__icon, .sosmed__icon { 
+  .contact__icon, .sosmed__icon { 
 	font-size: 1.2rem; 
 	font-weight: 400; 
   }
-  .social__nav__icon img, .sosmed__icon img{
+  .contact__icon img, .sosmed__icon img{
 	 width: 1.5rem;
 	 height: 100%;
 	 padding: 0 .5rem;
