@@ -256,12 +256,12 @@
  <script>
 	function myFunction() {
 	  var x = document.getElementById("homeTopNav");
-	  if (x.className === "nav__home_top") {
-	    x.className += " visual_nav";
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
 	  } else {
-	    x.className = "nav__home_top";
+	    x.style.display = "none";
 	  }
-	}
+	} 
 </script>
   </body> 
   
