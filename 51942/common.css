@@ -198,23 +198,25 @@ section {
 		background-color: violet;
 	}
 	
-	 visual__nav .img__icon {
+	 .visual__nav .img__icon {
 		position: absolute;
 		    right: 0;
 		    buttom: 0;
 	 }
-	 .visual__nav a {
+	 
+	.visual__nav li {
+		padding: 1rem 3rem;
+		background-color: #87ceeb;
+		list-style: none;
+	}
+	
+	.visual__nav a {
 	    float: none;
 	    display: block;
 	    text-align: right;
 		 background-color: red;
 	  }
 	
-	.visual li {
-		padding: 1rem 3rem;
-		background-color: #87ceeb;
-		list-style: none;
-	}
 
 
 }
