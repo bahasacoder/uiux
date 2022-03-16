@@ -183,6 +183,11 @@ section {
 		right: 10%;
 		top: 10%;
 	}
+	
+	 .lg--none.img__icon {
+		 position: fixed;
+	 }
+	 
 	.flex--nowrap {
 		flex-wrap: wrap;
 	}
@@ -198,9 +203,6 @@ section {
 		background-color: violet;
 	}
 	
-	 .img__icon {
-	 }
-	 
 	.visual__nav li {
 		padding: 1rem 3rem;
 		background-color: #87ceeb;
