@@ -181,7 +181,7 @@ section {
 		display: block;
 		position: absolute;
 		right: 0;
-		top: 10%;
+		top: 20%;
 	}
 	.flex--nowrap {
 		flex-wrap: wrap;
