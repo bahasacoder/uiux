@@ -194,6 +194,8 @@ section {
 	.visual__nav {
 		position: relative;
 		display: block;
+		width: 100%;
+		background-color: violet;
 	}
 	
 	 visual__nav .img__icon {
