@@ -208,7 +208,6 @@ section {
 		padding: 1rem 3rem;
 		background-color: #87ceeb;
 		list-style: none;
-		 background-color: red;
 	  }
 	}
 	
@@ -216,6 +215,7 @@ section {
 	    float: none;
 	    display: block;
 	    text-align: right;
+		text-decoration: none;
 	
 
 
