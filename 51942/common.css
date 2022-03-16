@@ -179,7 +179,7 @@ section {
 @media (max-width: 992px) {
 	.lg--none {
 		display: block;
-		position: absolute;
+		position: static;
 		right: 0;
 		top: 20%;
 	}
