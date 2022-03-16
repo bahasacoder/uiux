@@ -179,7 +179,9 @@ section {
 @media (max-width: 992px) {
 	.lg--none {
 		display: block;
-		float: right;
+		position: absolute;
+		right: 0;
+		top: 10%;
 	}
 	.flex--nowrap {
 		flex-wrap: wrap;
