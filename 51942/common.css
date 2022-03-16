@@ -208,14 +208,14 @@ section {
 		padding: 1rem 3rem;
 		background-color: #87ceeb;
 		list-style: none;
+		 background-color: red;
+	  }
 	}
 	
 	.visual__nav a {
 	    float: none;
 	    display: block;
 	    text-align: right;
-		 background-color: red;
-	  }
 	
 
 
