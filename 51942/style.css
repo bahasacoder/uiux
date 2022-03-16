@@ -262,7 +262,11 @@ body {
 .footer__column{}
 
 /* VISIBILITY */
-
+.toggle--nav-icon {
+	position: static;
+	top:20%;
+	right: 10%;
+}
 .lg--none {
 	display: none;
 }
