@@ -179,9 +179,9 @@ section {
 @media (max-width: 992px) {
 	.lg--none {
 		display: block;
-		position: static;
-		right: 0;
-		top: 20%;
+		position: absolute;
+		right: 10%;
+		top: 10%;
 	}
 	.flex--nowrap {
 		flex-wrap: wrap;
@@ -198,10 +198,7 @@ section {
 		background-color: violet;
 	}
 	
-	 .visual__nav .img__icon {
-		position: absolute;
-		    right: 0;
-		    buttom: 0;
+	 .img__icon {
 	 }
 	 
 	.visual__nav li {
