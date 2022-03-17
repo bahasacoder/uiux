@@ -176,7 +176,7 @@ section {
 @media (max-width: 992px) {
 	
 	.nav__home_top {
-		
+		display: none;
 	}
 
 	.lg--none {
