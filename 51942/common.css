@@ -241,14 +241,24 @@ section {
   background-color: #ce3939;
   letter-spacing: 0px;
 }
-
+	.navbar__topx{
+	positioin: fixed;
+	left: -100%;
+		top:70px;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+	.navbar__topx.active{
+	left:0;
+	}
   
 	.flex--nowrap {
 		flex-wrap: wrap;
 	}
 	
 	.nav__home_top {
-		display: none;
 	}
 	
 	.visual__nav {
