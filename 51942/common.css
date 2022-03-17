@@ -176,8 +176,7 @@ section {
 @media (max-width: 992px) {
 	
 	.nav__home_top {
-		display: flex;
-		flex-direction: column;
+		
 	}
 
 	.lg--none {
