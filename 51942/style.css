@@ -27,6 +27,8 @@ body {
     padding: 0;
    background-color: #fbbb08;
   }
+.navbar__top {}
+
   .social__nav{
 	  width: 100%;
 	  padding: 10px 0;
@@ -271,6 +273,4 @@ body {
 .toggle--nav-icon {
 
 }
-.lg--none {
-	display: none;
-}
+
