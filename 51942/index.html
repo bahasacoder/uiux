@@ -257,7 +257,12 @@
  <script>
 	function myFunction() {
 	  var x = document.getElementById("homeTopNav");
-	  x.classList.toggle("visual__nav");
+	  if (x.className == "nav__home_top") {
+		  x.className = "visual__nav";
+		} else {
+		  x.className = "nav__home_top";
+		}
+			  
 	}
 </script>
   </body> 
