@@ -185,6 +185,7 @@ section {
 	}
 	
 	 .lg--none.img__icon {
+		 position: fixed;
 	 }
 	 
 	.flex--nowrap {
@@ -201,20 +202,15 @@ section {
 		width: 100%;
 		background-color: violet;
 		z-index: 10;
-	}
-	
+	}	
 	.visual__nav li {
 		padding: 1rem 3rem;
 		background-color: #87ceeb;
 		list-style: none;
-	  }
-	}
-	
+	  }	
 	.visual__nav a {
-	    float: none;
 	    display: block;
-	    text-align: right;
-		text-decoration: none;
+	    text-decoration: none;
 	
 
 
