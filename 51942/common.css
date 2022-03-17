@@ -182,10 +182,6 @@ section {
 		top: 10%;
 	}
 	
-	 .lg--none.img__icon {
-		 position: fixed;
-	 }
-	 
 	.flex--nowrap {
 		flex-wrap: wrap;
 	}
