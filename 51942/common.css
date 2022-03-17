@@ -200,7 +200,7 @@ section {
 		position: absolute;
 		width: 100%;
 		background-color: violet;
-		z-index: 10;
+		z-index: 5;
 	}	
 	.visual__nav li {
 		padding: 1rem 3rem;
