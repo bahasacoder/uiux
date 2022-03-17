@@ -170,13 +170,16 @@ section {
 	  flex-wrap: wrap;
 	}
 
+
 }
 
-
-.nav__home_top {
-	display: flex;
-}
 @media (max-width: 992px) {
+	
+	.nav__home_top {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.lg--none {
 		display: block;
 		position: absolute;
