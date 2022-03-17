@@ -195,12 +195,8 @@ section {
 		flex-wrap: wrap;
 	}
 	
-	.nav__home_top {
-		display: none;
-	}
-	
 	.visual__nav {
-		position: absolute;
+		position: relative;
 		width: 100%;
 		background-color: violet;
 		z-index: 5;
