@@ -200,6 +200,7 @@ section {
 		display: block;
 		width: 100%;
 		background-color: violet;
+		z-index: 10;
 	}
 	
 	.visual__nav li {
