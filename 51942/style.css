@@ -262,6 +262,12 @@ body {
 .footer__column{}
 
 /* VISIBILITY */
+.nav__home_top {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
 .toggle--nav-icon {
 
 }
