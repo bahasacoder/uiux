@@ -197,8 +197,7 @@ section {
 	}
 	
 	.visual__nav {
-		position: relative;
-		display: block;
+		position: absolute;
 		width: 100%;
 		background-color: violet;
 		z-index: 10;
