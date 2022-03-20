@@ -10,6 +10,9 @@
     <title>Masempodalle Property</title>
     <link rel="stylesheet" href="style.css">
 	  <link rel="stylesheet" href="common.css">
+	  <style>
+
+</style>
   </head>
   <body>
       <nav class="navbar navbar__aside">
@@ -38,9 +41,11 @@
 		 <h2 class="nav__title text--center">ᨅᨚᨒ ᨆᨔᨙᨇᨚ ᨉᨒᨙ</h2>
 		  <p class="nav__description text--center">Temukan Rumah Idaman Anda</p>
 		 </div>
-		<div class="toggle--nav-icon lg--none hamburger"><a href="javascript:void(0)" class="img__icon" onclick="myFunction()"><img src="https://img.icons8.com/ios-filled/50/000000/menu-rounded.png"/></a></div>
-		<menu class="navbar__top">	  
-			<ul class="navbar__menu nav__items  nav__home_top" id="homeTopNav">
+		<div class="toggle--nav-icon lg--none1 hamburger">
+			<a href="javascript:void(0)" class="img__icon" onclick="myFunction()"><img src="https://img.icons8.com/ios-filled/50/000000/menu-rounded.png"/></a>
+		</div>
+		<menu class="navbar__top " >	  
+			<ul class="navbar__menu nav__items  nav__home_top" id="myTopnav">
 			  <li class="nav__item home"><a href="#">home</a></li>
 		  	  <li class="nav__item dropdown"><a class="nav__link" href="#">product</a> <span>tog</span></li>
 			  <li class="nav__item"><a href="#">location</a></li>
@@ -255,15 +260,16 @@
           <!-- section : area, block. container, content -->
 		     
 		     
- <script>
-let hamburger = document.querySelector('.hamburger');
-let menu = document.querySelector('.navbar__top');
-let bod = document.querySelector('.container');
 
-hamburger.addEventListener('click', function() {
-  hamburger.classList.toggle('isactive');
-  menu.classList.toggle('active');
-
+<script>
+	function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className == "nav__home_top") {
+		  x.className = "responsive";
+			} else {
+			  x.className = "nav__home_top";
+			}
+	} 
 </script>
   </body> 
   
