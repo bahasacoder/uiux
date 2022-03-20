@@ -112,12 +112,12 @@ body {
 }
 
 .home__hero h2 {
-	position: absolute;
-	top:60%;
+	position: relative;
+	top:-30%;
 }
 .home__hero p {
-	position: absolute;
-	top:70%;
+	position: relative;
+	top:-20%;
 }
 
  /* Section 1 */
@@ -269,6 +269,8 @@ body {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+	background-color: #333;
+  overflow: hidden;
 }
 .toggle--nav-icon {
 
