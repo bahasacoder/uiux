@@ -27,7 +27,38 @@ body {
     padding: 0;
    background-color: #fbbb08;
   }
-.navbar__top {}
+
+.toggle--nav-icon {
+
+}
+.navbar__top {
+	display: block;
+	font-weight: 600;
+}  
+.navbar__menu {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center; 
+	overflow: hidden;
+}
+ul.navbar__menu {
+	
+}
+.nav__item {	
+		list-style: none;
+		padding: 0;
+		margin: 0;
+}
+.nav__item a {
+	text-decoration: none;
+	color: #000;
+}
+.nav__item:hover {				
+		background-color: #c67421;
+		color: #fff;
+		font-weight: 700;
+}
 
   .social__nav{
 	  width: 100%;
@@ -264,15 +295,5 @@ body {
 .footer__column{}
 
 /* VISIBILITY */
-.nav__home_top {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #333;
-  overflow: hidden;
-}
-.toggle--nav-icon {
 
-}
 
